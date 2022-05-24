@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\bin\Debug\SakanihousingGui.exe
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\bin\Debug\SakanihousingGui.pdb
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\bin\Debug\SakanihousingGui.xml
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.vbproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.Form1.resources
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.Form2.resources
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.Form3.resources
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.Resources.resources
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.vbproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.vbproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.exe
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.xml
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\obj\Debug\SakanihousingGui.pdb
+C:\Users\DELL\Desktop\Data Base\VS\SakanihousingGui\SakanihousingGui\bin\Debug\SakanihousingGui.exe.config

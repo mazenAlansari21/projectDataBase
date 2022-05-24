@@ -1,0 +1,476 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SakanihousingGui
+</name>
+</assembly>
+<members>
+<member name="T:SakanihousingGui.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SakanihousingGui.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SakanihousingGui.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestAdministrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestOfstudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Room_locationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Rules_of_RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestAdministrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestOfstudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Room_locationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Rules_of_RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.AdministrationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestAdministrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RequestOfstudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Room_locationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.Rules_of_RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.AdministrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.AdministrationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.RequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.RequestAdministrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.RequestOfstudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.Room_locationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.Rules_of_RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SakanihousingGui.sakniHDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SakanihousingGui.sakniHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SakanihousingGui.sakniHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.UpdateAll(SakanihousingGui.sakniHDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestAdministrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestOfstudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Room_locationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Rules_of_RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestAdministrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestOfstudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Room_locationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Rules_of_RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.AdministrationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestAdministrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RequestOfstudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Room_locationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.Rules_of_RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.AdministrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.AdministrationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.RequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.RequestAdministrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.RequestOfstudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.Room_locationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.Rules_of_RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SakanihousingGui.sakniHDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SakanihousingGui.sakniHDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SakanihousingGui.sakniHDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.UpdateAll(SakanihousingGui.sakniHDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SakanihousingGui.sakniHDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

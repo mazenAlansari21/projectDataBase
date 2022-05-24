@@ -1,0 +1,152 @@
+create table student
+(
+academicNumber int ,
+fristName varchar(10) not null ,
+LastName varchar(10) not null ,
+userName varchar(10) not null ,
+password_student varchar(10) not null ,
+collegeName varchar(20) not null,
+stu_state varchar(15) not null,
+constraint academicNumber_pk primary key (academicNumber) 
+);
+ insert into student values (4028143,'Mazen', 'Alansari', '4028143','1110358759','computer scince ','studying');
+--insert into student values (4002596,'Mohammed', 'Alshrif', "4002596","1106263286",'AI','studying');
+--insert into student values (3702701,'Fawzi', 'Mohammed', '3702701','F1234567','engineering',' EXgraduate');
+--insert into student values (4028142,'Khaled', 'Ahmad', 'khaled','K1234567','IT','studying');
+--insert into student values (4002569,'Mohammad', 'Mohammad', 'moha','Mm123456789','HCI','studying');
+--insert into student values (4001200,'Mohammad', 'Ahmad', '4001200','MDR_IS','HCI','studying');
+
+
+create table Request
+(
+requestNum int ,
+requestDate datetime not null,
+checkIn varchar(10) ,
+checkOut varchar(10) ,
+constraint request_pk primary key (requestNum)
+);
+insert into Request values(01,'2022-05-20 10:34:09 am',"make_request",null);
+insert into Request values(02,'2022-05-25 10:34:10 am',"make_request",null);
+insert into Request values(03,'2022-05-28 9:06:10 am',null,"cancel_request");
+insert into Request values(04,'2022-05-30 11:56:56 pm',null,"cancel_request");
+insert into Request values(05,'2022-06-1 11:56:56 am',"make_request",null);
+insert into Request values(06,'2022-06-1 12:30:56 pm',"make_request",null);
+insert into Request values(07,'2022-06-1 12:30:56 pm',"make_request",null);
+insert into Request values(08,'2022-06-1 12:30:56 pm',"make_request",null);
+
+create table RequestOfstudent
+(
+academicNumber int,
+requestNum int ,
+constraint academicNumber_fg foreign key(academicNumber)
+references student(academicNumber),
+constraint requestNum_fg1 foreign key(requestNum)
+references Request(requestNum) 
+);
+insert into RequestOfstudent values(01,4028143);
+insert into RequestOfstudent values(02,3702701);
+insert into RequestOfstudent values(04,4028143);
+insert into RequestOfstudent values(03,3702701);
+insert into RequestOfstudent values(05,4002596);
+insert into RequestOfstudent values(06,4002569);
+insert into RequestOfstudent values(07,4028142);
+insert into RequestOfstudent values(08,4001200);
+create table Administration
+(
+administratorID int ,
+fristName varchar(10),
+LastName varchar(10),
+constraint administratorID_pk primary key (administratorID) 
+);
+insert into Administration values (11001,"Ahmaed","alharbi"); 
+insert into Administration values (11002,"mohammed","alharbi"); 
+
+create table RequestAdministration
+(
+accept varchar(10)  ,
+rejact varchar(10)  ,
+administratorID int ,
+requestNum int ,
+constraint administratorID_fg1 foreign key (administratorID)
+references Administration (administratorID),
+constraint requestNum_fg2 foreign key(requestNum)
+references Request(requestNum)
+);
+ insert into RequestAdministration values ("accept",null,0101,05);
+ insert into RequestAdministration values ("accept",null,0102,06);
+ insert into RequestAdministration values (null,"rejact",0101,07);
+ insert into RequestAdministration values ("accept",null,0102,08);
+create table Room
+(
+roomNum int,
+floor varchar(10) not null ,
+numOf_Student int ,
+area double precision not null, 
+available varchar(10) not null, 
+constraint roomNum_pk primary key(roomNum) 
+alter table room add roomnumber int,
+);
+insert into room values (101,1,2,"7.5","available",1);
+ insert into room values (102,2,2,"7.5","available",2);
+ insert into room values (103,3,2,"7.5","not available",3);
+ insert into room values (104,4,1,"7.5","available",4);
+  insert into room values (105,5,1,"7.5","available",5);
+
+create table Rules_of_Room
+(
+roomNum int ,
+Rules varchar(30),
+constraint Rules_pk primary key(Rules),
+constraint Rules_fg foreign key(Rules)
+references Rules_of_Room (Rules),
+constraint roomNum_fg1 foreign key(roomNum)
+references Room (roomNum) 
+);
+insert into Rules_of_Room values ("no smoking ",101); 
+insert into Rules_of_Room values ("no disturbance ",102);
+insert into Rules_of_Room values ("no smoking ",103);
+insert into Rules_of_Room values ("no disturbance ",104);
+create table Room_location
+(
+roomNum int ,
+location varchar(10),
+constraint roomNum_fg2 foreign key(roomNum)
+references Room (roomNum), 
+constraint location_pk primary key(location),
+constraint location_fg foreign key(location)
+references Room_location (location) 
+);
+insert into Room_location values (101,"Building A");
+insert into Room_location values (102,"Building B");
+insert into Room_location values (103,"Building C");
+insert into Room_location values (104,"Building D");
+insert into Room_location values (105,"Building E");
+
+create table AdministrationRoom
+(
+administratorID int ,
+roomNum int ,
+constraint administratorID_fg2 foreign key (administratorID)
+references Administration (administratorID),
+constraint roomNum_fg3 foreign key(roomNum)
+references Room (roomNum) 
+
+);
+insert into AdministrationRoom values (11001,101); 
+insert into AdministrationRoom values (11001,102);
+insert into AdministrationRoom values (11002,103); 
+insert into AdministrationRoom values (11002,104);
+insert into AdministrationRoom values (11002,105);
+
+/*select numOf_Student,administratorID,area,Room.roomNum
+from AdministrationRoom join Room 
+on Room.roomNum =AdministrationRoom.roomNum
+where Room.roomNum =101;*/
+
+/*select requestDate ,accept,rejact
+from Request join RequestAdministration
+on Request.requestNum = RequestAdministration.requestNum
+where RequestAdministration.requestNum=07;*/
+
+select Rules ,Rules_of_Room.roomNum
+from Rules_of_Room
